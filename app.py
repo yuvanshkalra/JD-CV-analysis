@@ -32,8 +32,8 @@ from docx.oxml.ns import qn # For font color
 
 # --- Streamlit Page Configuration (MUST BE THE FIRST ST COMMAND) ---
 st.set_page_config(
-    page_title="SSO Consultants AI Recruitment",
-    page_icon="sso_logo.png", # Set favicon for the browser tab
+    page_title="JD-CV-Analysis",
+    page_icon="logo.png", # Set favicon for the browser tab
     layout="wide" # Keeping wide layout, but centering content within it
 )
 
