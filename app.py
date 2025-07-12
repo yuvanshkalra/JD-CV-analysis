@@ -764,7 +764,7 @@ def create_comparative_docx_report(jd_text, cv_texts, report_data, candidate_eva
 # --- Pages/UI Functions ---
 
 def display_login_form():
-    st.image("sso_logo.png", width=100)
+    st.image("logo.png", width=100)
     st.markdown("<h2 style='text-align: center; color: #4CAF50;'>SSO Consultants AI Recruitment</h2>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center;'>Please choose your login type.</p>", unsafe_allow_html=True)
 
