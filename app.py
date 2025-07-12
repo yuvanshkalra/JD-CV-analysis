@@ -1228,7 +1228,7 @@ def manage_users_page():
 st.markdown(
     """
     <img src="data:image/png;base64,{}" class="fixed-top-left-logo">
-    """.format(base64.b64encode(open("sso_logo.png", "rb").read()).decode()),
+    """.format(base64.b64encode(open("logo.png", "rb").read()).decode()),
     unsafe_allow_html=True
 )
 
